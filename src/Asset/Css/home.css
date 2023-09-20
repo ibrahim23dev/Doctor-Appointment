@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #0074d9;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+
+button[type="submit"] {
+    background-color: #0074d9;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005ea1;
+}
+
+.main-banner-content{
+    top: 10%;
+    left: 80%;
+}
+.para{
+    padding-left: 20PX;
+    padding-bottom: 40px;
+}
+.Overview{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section-3{
+    background-color: #017aa5;
+    padding-bottom: 60px;
+
+}
+
+.home-padding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.experience-tabs {
+    background: #e7e7e7;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #000;
+    margin: 0 10px;
+    min-width: 190px;
+}
+.manipal-experience {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.vedio{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.home-padding1{
+    top: 10%;
+    left: 50%;
+    border-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: white;
+}
+.last-button{
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #000;
+    margin: 0 10px;
+    min-width: 190px
+}
+
+.home-see-all-btn {
+    border: 1px solid #fff;
+    padding: 8px 40px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+section-4{
+    padding-left: 20PX;
+    padding-bottom: 40px;
+  background:#babbbc;
+}
